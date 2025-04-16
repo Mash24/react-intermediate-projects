@@ -1,0 +1,33 @@
+{
+  "name": "my-react-app",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@tinymce/tinymce-react": "^6.0.0",
+    "npm": "^11.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.54.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
+    "postcss": "^8.5.3",
+    "prettier": "^3.2.4",
+    "tailwindcss": "^4.0.15"
+  },
+  "scripts": {
+    "start:01": "cd 01basicreact && npm start",
+    "start:new": "cd mynewreactapp && npm start",
+    "build:01": "cd 01basicreact && npm run build",
+    "build:new": "cd mynewreactapp && npm run build",
+    "test:01": "cd 01basicreact && npm test",
+    "test:new": "cd mynewreactapp && npm test",
+    "lint": "eslint '**/*.{js,jsx}'",
+    "format": "prettier --write '**/*.{js,jsx,css,md,json}'"
+  }
+}

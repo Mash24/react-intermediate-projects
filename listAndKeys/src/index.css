@@ -1,0 +1,77 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bio {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+
+li {
+  list-style-type: none; /* Remove default bullet points */
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* Add some spacing between items */
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #333;
+  border-radius: 1rem;
+  max-width: 400px;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+}
+
+.person h2 {
+  font-size: 1rem;
+  align-items: flex-start;
+  margin: 0;
+}
+
+.profession {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-transform:capitalize;
+}
+
+.profession h4 {
+  font-size: 1rem;
+  margin: 0;
+  color: white;
+}
+
+.profession p {
+  font-size: .9rem;
+  color: rgb(167, 167, 167);
+}
+
